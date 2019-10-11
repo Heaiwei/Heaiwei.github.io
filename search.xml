@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Markdo语法规则一</title>
+      <link href="/2019/10/11/Markdown1/"/>
+      <url>/2019/10/11/Markdown1/</url>
+      
+        <content type="html"><![CDATA[<p>我展示的是一级标题 </p><p>==============</p><p>我展示的是二级标题</p><hr><p>#一级标题</p><p>##二级标题</p><p>###三级标题</p><p><em>斜体文本</em></p><p><em>斜体文本</em></p><p><strong>粗体文本</strong></p><p><strong>粗体文本</strong></p><p><strong><em>粗斜体文本</em></strong></p><p><strong><em>粗斜体文本</em></strong></p><hr><hr><p><del>删除线</del></p><p><u>带下划线</u></p><p><strong>脚注</strong></p><p>[^要注明的文本]</p><p>创建脚注格式类似这样[^HAW]</p><p>你好[^我是何爱伟]</p><p><strong>有序列表和无序列表</strong></p><p>无序列表使用星号（*），加号（+）或者是减号（-）作为列表标记：</p><ul><li>第一项</li><li>第二项</li></ul><ul><li>第一项</li><li>第二项</li></ul><ul><li>第一项</li><li>第二项</li></ul><p>有序列表使用数字加上[^.]号来表示</p><ol><li>第一项</li><li>第二项</li></ol><p><strong>列表嵌套</strong>只需要在子列表中的选项添加[^四]个空格即可</p><ol><li>第一项<pre><code>- 第一项嵌套的第一个元素- 第一项嵌套的第二个元素</code></pre></li><li>第二项<pre><code>- 第二项的嵌套的第一个元素- 第二项的嵌套的第二个元素</code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 搭建博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>my first blog about hexo!</title>
       <link href="/2019/10/10/second-blog/"/>
       <url>/2019/10/10/second-blog/</url>
