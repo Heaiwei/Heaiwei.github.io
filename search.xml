@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>Markdown语法规则三</title>
+      <title>Markdown语法规则四</title>
       <link href="/2019/10/11/Markdown4/"/>
       <url>/2019/10/11/Markdown4/</url>
       
@@ -35,7 +35,7 @@
       <link href="/2019/10/11/Markdown3/"/>
       <url>/2019/10/11/Markdown3/</url>
       
-        <content type="html"><![CDATA[<p><strong>链接</strong></p><p>链接的使用方式如下：</p><p>[链接名称](链接地址)</p><p>或者</p><p>&lt;链接地址&gt;</p><p>例如：</p><p>这是一个链接    <a href="https://www.baidu.com" target="_blank" rel="noopener">百度一下</a></p><p>或者直接使用链接地址</p><p><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p><p><strong><em>高级链接</em></strong></p><p>链接也可以使用变量来代替，文档末尾附带变量地址：</p><p><strong>注意</strong></p><p>此时的格式<strong>不再</strong>是[]()而是[][]</p><p>这个链接用1来作为网址变量[Google]<a href="http://www.google.com/" target="_blank" rel="noopener">1</a></p><p>这个链接使用run作为网址变量[baidu]<a href="http://www.baidu.com/" target="_blank" rel="noopener">run</a></p><p>然后在文档结尾处为变量赋值(网址)</p><p><strong>图片</strong></p><p>语法格式如下：</p><p> ![alt  属性文本](图片地址)</p><p> ![alt  属性文本](图片地址  “可选标题”)</p><ul><li>开头一个感叹号</li><li>接着一个方括号，里面放上图片的替代文字</li><li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的‘title’属性的文字。</li></ul><p>使用实例：</p><p><img src="//www.baidu.com/img/bd_logo1.png" alt="Baidu 图标"></p><p><img src="Markdown3/ztfn.JPG" alt="斋藤飞鸟图标"></p><p>同理，也可以像使用链接网址一样对图片地址使用变量：</p><p>这个链接用1作为网址变量 <img src="//www.baidu.com/img/bd_logo1.png" alt="baidu">.</p><p>然后在文档的结尾位变量赋值(网址)</p><p>目前[^Markdow]还没有办法指定图片的高度与宽度，如果需要的话，可以使用普通的<strong><img></strong>标签。</p><img src="//www.baidu.com/img/bd_logo1.png" width="50%">]]></content>
+        <content type="html"><![CDATA[<p><strong>链接</strong></p><p>链接的使用方式如下：</p><p>[链接名称](链接地址)</p><p>或者</p><p>&lt;链接地址&gt;</p><p>例如：</p><p>这是一个链接    <a href="https://www.baidu.com" target="_blank" rel="noopener">百度一下</a></p><p>或者直接使用链接地址</p><p><a href="https://www.baidu.com" target="_blank" rel="noopener">https://www.baidu.com</a></p><p><strong><em>高级链接</em></strong></p><p>链接也可以使用变量来代替，文档末尾附带变量地址：</p><p><strong>注意</strong></p><p>此时的格式<strong>不再</strong>是[]()而是[][]</p><p>这个链接用1来作为网址变量[Google]<a href="http://www.google.com/" target="_blank" rel="noopener">1</a></p><p>这个链接使用run作为网址变量[baidu]<a href="http://www.baidu.com/" target="_blank" rel="noopener">run</a></p><p>然后在文档结尾处为变量赋值(网址)</p><p><strong>图片</strong></p><p>语法格式如下：</p><p> ![alt  属性文本](图片地址)</p><p> ![alt  属性文本](图片地址  “可选标题”)</p><ul><li>开头一个感叹号</li><li>接着一个方括号，里面放上图片的替代文字</li><li>接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的‘title’属性的文字。</li></ul><p>使用实例：</p><p><img src="//www.baidu.com/img/bd_logo1.png" alt="Baidu 图标"></p><p><img src="//heaiwei.github.io/2019/10/11/Markdown3/ztfn.JPG" alt="斋藤飞鸟图标"></p><p>同理，也可以像使用链接网址一样对图片地址使用变量：</p><p>这个链接用1作为网址变量 <img src="//www.baidu.com/img/bd_logo1.png" alt="baidu">.</p><p>然后在文档的结尾位变量赋值(网址)</p><p>目前[^Markdow]还没有办法指定图片的高度与宽度，如果需要的话，可以使用普通的<strong><img></strong>标签。</p><img src="//www.baidu.com/img/bd_logo1.png" width="50%">]]></content>
       
       
       <categories>
