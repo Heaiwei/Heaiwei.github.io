@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Webpack配置</title>
+      <link href="/2020/02/24/webpack%E9%85%8D%E7%BD%AE/"/>
+      <url>/2020/02/24/webpack%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>安装webpack</p><blockquote><p>yarn add <a href="mailto:webpack@3.10.0" target="_blank" rel="noopener">webpack@3.10.0</a> –dev</p></blockquote></li><li><p>需要处理的文件类型 </p><table><thead><tr><th align="center">文件类型</th><th align="center">webpack插件</th></tr></thead><tbody><tr><td align="center">HTML</td><td align="center">html-webpack-plugin</td></tr><tr><td align="center">脚本</td><td align="center">babel+babel-present-react</td></tr><tr><td align="center">样式</td><td align="center">css-loader+sass-loader</td></tr><tr><td align="center">图片/字体</td><td align="center">url-loader+file-loader</td></tr></tbody></table></li><li><p>webpack常用模块</p><ul><li>html-webpackplugin，html单独打包成文件</li><li>extract-text-webpack-plugin，样式打包成文件</li><li>CommonsChunkplugin，提出通用模块</li></ul></li><li><p>webpack-dev-server</p><ul><li>为webpack项目提供web服务、</li><li>适用版本：2.9.7</li><li>更改代码自动刷新，路径转发</li><li>安装方式：yarn add <a href="mailto:webpack-dev-server@2.9.7" target="_blank" rel="noopener">webpack-dev-server@2.9.7</a> –dev</li></ul></li><li><p>webpack的四个核心概念：</p><ul><li>入口（entry）</li><li>出口（output）</li><li>loader</li><li>插件（plugin）</li></ul></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> webpack </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> webpack </tag>
+            
+            <tag> 打包工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Nodejs与Yarn的安装与使用</title>
       <link href="/2020/02/24/Nodejs%E4%B8%8EYarn/"/>
       <url>/2020/02/24/Nodejs%E4%B8%8EYarn/</url>
