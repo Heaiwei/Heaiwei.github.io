@@ -16,7 +16,7 @@ if (isPassword) {
     error: '复制错误',
     noSupport: '浏览器不支持'
   }
-}</script></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/avatar.png"></div><div class="author-info-name">Heaiwei</div><div class="author-info-description">人生得意须尽欢，莫使金樽空对月</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/Heaiwei" target="_blank">GitHub<i class="icon-dot bg-color8"></i></a><a class="links-button button-hover" href="mailto:haw1165748810@163.com" target="_blank">E-Mail<i class="icon-dot bg-color4"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1165748810&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color5"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">15</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">16</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">9</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">何先生的博客</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2020/02/24/webpack配置01/">Webpack配置和基础使用</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-25</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/webpack/">webpack</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/webpack/">webpack</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/打包工具/">打包工具</a></div></div><div class="post-content"><div class="main-content content"><ol>
+}</script></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/avatar.png"></div><div class="author-info-name">Heaiwei</div><div class="author-info-description">人生得意须尽欢，莫使金樽空对月</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/Heaiwei" target="_blank">GitHub<i class="icon-dot bg-color8"></i></a><a class="links-button button-hover" href="mailto:haw1165748810@163.com" target="_blank">E-Mail<i class="icon-dot bg-color5"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1165748810&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color10"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">15</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">16</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">9</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">何先生的博客</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2020/02/24/webpack配置01/">Webpack配置和基础使用</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-25</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/webpack/">webpack</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/webpack/">webpack</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/打包工具/">打包工具</a></div></div><div class="post-content"><div class="main-content content"><ol>
 <li><p>安装webpack</p>
 <blockquote>
 <p>yarn add <a href="mailto:webpack@3.10.0" target="_blank" rel="noopener">webpack@3.10.0</a> –dev</p>
@@ -72,7 +72,7 @@ if (isPassword) {
 </ul>
 </li>
 </ol>
-<h1 id="使用webpack打包文件"><a href="#使用webpack打包文件" class="headerlink" title="使用webpack打包文件"></a><strong>使用webpack打包文件</strong></h1><ol>
+<h2 id="使用webpack打包文件"><a href="#使用webpack打包文件" class="headerlink" title="使用webpack打包文件"></a><strong>使用webpack打包文件</strong></h2><ol>
 <li><p><strong>output</strong> 属性告诉 webpack 在哪里输出它所创建的 <em>bundles</em>，以及如何命名这些文件，默认值为 <code>./dist</code>。基本上，整个应用程序结构，都会被编译到你指定的输出路径的文件夹中。你可以通过在配置中指定一个 <code>output</code> 字段，来配置这些处理过程：</p>
 <blockquote>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="comment">//在根目录下创建一个webpack配置的js文件</span></span><br><span class="line">&gt; <span class="comment">//命名为webpack.config.js</span></span><br><span class="line">&gt; <span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">'path'</span>);</span><br><span class="line">&gt; </span><br><span class="line">&gt; <span class="built_in">module</span>.exports = &#123;</span><br><span class="line">&gt;   entry: <span class="string">'./src/app.js'</span>,  <span class="comment">//入口文件，表示从哪出开始读</span></span><br><span class="line">&gt;   output: &#123;</span><br><span class="line">&gt;     path: path.resolve(__dirname, <span class="string">'dist'</span>),  <span class="comment">//表示打包后的文件的输出位置</span></span><br><span class="line">&gt;       <span class="comment">//第一个参数表示当前目录,</span></span><br><span class="line">&gt;     filename: <span class="string">'app.js'</span></span><br><span class="line">&gt;   &#125;</span><br><span class="line">&gt; &#125;;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
@@ -88,12 +88,12 @@ if (isPassword) {
 </blockquote>
 </li>
 <li><p>在根目录下打开git bush执行<strong>打包</strong>命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node_modules/.bin/webpack</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node_modules/.bin/webpack</span><br></pre></td></tr></table></figure>
 
 <p>回车后就可以对app.js文件进行打包，webpack将代码进行打包并输出到根目录下的dist目录下面的app.js</p>
 </li>
 </ol>
-<h3 id="打包HTML文件"><a href="#打包HTML文件" class="headerlink" title="打包HTML文件"></a>打包HTML文件</h3><ol>
+<h2 id="打包HTML文件"><a href="#打包HTML文件" class="headerlink" title="打包HTML文件"></a>打包HTML文件</h2><ol>
 <li><p>在webpack的中文文档中搜索HtmlWebpackPlugin</p>
 <p><a href="https://github.com/jantimon/html-webpack-plugin" target="_blank" rel="noopener"><code>HtmlWebpackPlugin</code></a>简化了HTML文件的创建，安装命令是：yarn add <a href="mailto:html-webpack-plugin@2.30.1" target="_blank" rel="noopener">html-webpack-plugin@2.30.1</a></p>
 </li>
@@ -108,7 +108,9 @@ if (isPassword) {
 <li><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在HtmlWebpackPlugin()中添加参数可以自定义模板</span></span><br><span class="line"><span class="comment">//其中template表示的就是自定义模板的路径（需要在src下建立一个同名文件和自定义的代码）</span></span><br><span class="line">plugins: [<span class="keyword">new</span> HtmlWebpackPlugin(&#123;</span><br><span class="line">        	template: <span class="string">'./src/index.html'</span></span><br><span class="line">        &#125;)]</span><br><span class="line"><span class="comment">//后面步骤同上</span></span><br></pre></td></tr></table></figure>
 
 <p>HtmlWebpackPlugin的更多用法请参阅<a href="https://github.com/jantimon/html-webpack-plugin#options" target="_blank" rel="noopener">插件文档</a>。</p>
-<h3 id="打包脚本文件（babel）"><a href="#打包脚本文件（babel）" class="headerlink" title="打包脚本文件（babel）"></a>打包脚本文件（babel）</h3></li>
+</li>
+</ol>
+<h2 id="打包脚本文件（babel）"><a href="#打包脚本文件（babel）" class="headerlink" title="打包脚本文件（babel）"></a>打包脚本文件（babel）</h2><ol>
 <li><p>babel-loader的安装</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//官方文档搜索babel-loader,安装命令：</span></span><br><span class="line">yarn add babel-core@<span class="number">6.26</span><span class="number">.0</span>  babel-preset-env@<span class="number">1.6</span><span class="number">.1</span> babel-loader@<span class="number">7.1</span><span class="number">.2</span> --dev</span><br></pre></td></tr></table></figure>
 </li>
@@ -121,7 +123,7 @@ if (isPassword) {
 <li><p>git bush执行命令：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//输入以下命令就可以使用babel了，将ES6语法转化为ES5</span></span><br><span class="line">node_modules/.bin/webpack</span><br></pre></td></tr></table></figure>
 
-<h3 id="打包React文件"><a href="#打包React文件" class="headerlink" title="打包React文件"></a>打包React文件</h3></li>
+<h2 id="打包React文件"><a href="#打包React文件" class="headerlink" title="打包React文件"></a>打包React文件</h2></li>
 <li><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//安装命令:</span></span><br><span class="line">yarn add babel-preset-react@<span class="number">6.24</span><span class="number">.1</span> --dev</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>安装完成进行配置：</p>
@@ -138,7 +140,7 @@ if (isPassword) {
 </ol>
 <ol start="5">
 <li><p>git bush执行命令：node_modules/.bin/webpack</p>
-<h3 id="打包样式CSS文件"><a href="#打包样式CSS文件" class="headerlink" title="打包样式CSS文件"></a>打包样式CSS文件</h3></li>
+<h2 id="打包样式CSS文件"><a href="#打包样式CSS文件" class="headerlink" title="打包样式CSS文件"></a>打包样式CSS文件</h2></li>
 <li><p>在官网中搜索css指南（按照官网配置）</p>
 </li>
 <li><p>安装css-loader和style-loader:</p>
@@ -176,7 +178,7 @@ if (isPassword) {
 </ul>
 </li>
 </ol>
-<pre><code>+ 执行打包命令</code></pre><h3 id="打包样式sass文件"><a href="#打包样式sass文件" class="headerlink" title="打包样式sass文件"></a>打包样式sass文件</h3><ol>
+<pre><code>+ 执行打包命令</code></pre><h2 id="打包样式sass文件"><a href="#打包样式sass文件" class="headerlink" title="打包样式sass文件"></a>打包样式sass文件</h2><ol>
 <li><p>官网搜索sass-loader</p>
 </li>
 <li><p>安装命令：yarn add <a href="mailto:sass-loader@6.0.6" target="_blank" rel="noopener">sass-loader@6.0.6</a>  –dev </p>
@@ -208,7 +210,7 @@ if (isPassword) {
 <li><p>执行打包命令</p>
 </li>
 </ol>
-<h3 id="打包图片"><a href="#打包图片" class="headerlink" title="打包图片"></a>打包图片</h3><ol>
+<h2 id="打包图片"><a href="#打包图片" class="headerlink" title="打包图片"></a>打包图片</h2><ol>
 <li><p>在官网的指南中找到资源管理</p>
 </li>
 <li><p>找到加载图(file-loader不如url-loader)</p>
@@ -222,7 +224,7 @@ if (isPassword) {
 <li><p>将图片1.jpg放入src目录下面，然后将scss文件中的背景设置为该图片，执行打包命令即可</p>
 </li>
 </ol>
-<h3 id="打包字体文件"><a href="#打包字体文件" class="headerlink" title="打包字体文件"></a>打包字体文件</h3><ol>
+<h2 id="打包字体文件"><a href="#打包字体文件" class="headerlink" title="打包字体文件"></a>打包字体文件</h2><ol>
 <li><p>好用的字体库：<a href="http://fontawesome.dashgame.com/" target="_blank" rel="noopener">http://fontawesome.dashgame.com/</a></p>
 </li>
 <li><p>安装字体库：</p>
@@ -242,7 +244,7 @@ if (isPassword) {
 <li><p>执行打包命令</p>
 </li>
 </ol>
-<h3 id="提出公共模块"><a href="#提出公共模块" class="headerlink" title="提出公共模块"></a>提出公共模块</h3><ol>
+<h2 id="提出公共模块"><a href="#提出公共模块" class="headerlink" title="提出公共模块"></a>提出公共模块</h2><ol>
 <li><p>这是webpack自带的插件,不需要下载安装，在配置文件的plugin中添加：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//首先要引入插件</span></span><br><span class="line"><span class="keyword">const</span> webpack = <span class="built_in">require</span>(<span class="string">'webpack'</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> ExtractTextPlugin(<span class="string">"css/[name].css"</span>),</span><br><span class="line">    <span class="comment">//表示存放在根目录下的css文件夹下</span></span><br><span class="line"><span class="keyword">new</span> webpack.optimize.CommonsChunkPlugin(&#123;</span><br><span class="line">    name : <span class="string">'common'</span>,</span><br><span class="line">    filename : <span class="string">'js/base.js'</span></span><br><span class="line">    <span class="comment">//表示存放在根目录下的js文件夹下</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 </li>
@@ -252,7 +254,7 @@ if (isPassword) {
 <li><p>执行打包命令</p>
 </li>
 </ol>
-<h3 id="webpack打包命令的升级"><a href="#webpack打包命令的升级" class="headerlink" title="webpack打包命令的升级"></a>webpack打包命令的升级</h3><ol>
+<h2 id="webpack打包命令的升级"><a href="#webpack打包命令的升级" class="headerlink" title="webpack打包命令的升级"></a>webpack打包命令的升级</h2><ol>
 <li><p>官网搜索webpack-dev-server,它能实时重新加载</p>
 </li>
 <li><p>安装命令：</p>
@@ -281,7 +283,7 @@ if (isPassword) {
 </ol>
 </li>
 </ol>
-<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ol>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
 <li><p>在package.json中添加几个脚本可以使得更加简便：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">"scripts": &#123;</span><br><span class="line">    "dev" : "node_modules/.bin/webpack-dev-server",</span><br><span class="line">    //在git bush中就可以通过输入yarn run dev就相当于执行了  </span><br><span class="line">    //node_modules/.bin/webpack-dev-server以下命令也是</span><br><span class="line">    "dist": "node_modules/.bin/webpack -p"</span><br><span class="line">    //这条命令就是线上环境的打包</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
 
