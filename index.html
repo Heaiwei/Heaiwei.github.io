@@ -16,7 +16,169 @@ if (isPassword) {
     error: '复制错误',
     noSupport: '浏览器不支持'
   }
-}</script></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/avatar.png"></div><div class="author-info-name">Heaiwei</div><div class="author-info-description">人生得意须尽欢，莫使金樽空对月</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/Heaiwei" target="_blank">GitHub<i class="icon-dot bg-color9"></i></a><a class="links-button button-hover" href="mailto:haw1165748810@163.com" target="_blank">E-Mail<i class="icon-dot bg-color6"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1165748810&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color3"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">15</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">16</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">9</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">何先生的博客</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2020/02/24/webpack配置01/">Webpack配置和基础使用</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-25</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/webpack/">webpack</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/webpack/">webpack</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/打包工具/">打包工具</a></div></div><div class="post-content"><div class="main-content content"><ol>
+}</script></head><body><canvas id="universe"></canvas><!--#body--><div id="sidebar"><div class="author-info"><div class="author-info-avatar"><img class="author-info-avatar-img" src="/avatar.png"></div><div class="author-info-name">Heaiwei</div><div class="author-info-description">人生得意须尽欢，莫使金樽空对月</div><div class="links-buttons"><a class="links-button button-hover" href="https://github.com/Heaiwei" target="_blank">GitHub<i class="icon-dot bg-color1"></i></a><a class="links-button button-hover" href="mailto:haw1165748810@163.com" target="_blank">E-Mail<i class="icon-dot bg-color7"></i></a><a class="links-button button-hover" href="tencent://message/?uin=1165748810&amp;Site=&amp;Menu=yes" target="_blank">QQ<i class="icon-dot bg-color6"></i></a></div><div class="author-info-articles"><a class="author-info-articles-archives article-meta" href="/archives"><span class="pull-top">日志</span><span class="pull-bottom">16</span></a><a class="author-info-articles-tags article-meta" href="/tags"><span class="pull-top">标签</span><span class="pull-bottom">16</span></a><a class="author-info-articles-categories article-meta" href="/categories"><span class="pull-top">分类</span><span class="pull-bottom">9</span></a></div></div></div><div id="main-container"><header><div id="menu-outer"><i class="menu-list-icon fas fa-bars"></i><nav id="menu-inner"><a class="menu-item" href="/">首页</a><a class="menu-item" href="/tags">标签</a><a class="menu-item" href="/categories">分类</a><a class="menu-item" href="/archives">归档</a><a class="menu-item" href="/about">关于</a></nav><div class="right-info"><a class="title-name" href="/">何先生的博客</a><span id="now-time"></span></div></div></header><div id="content-outer"><div id="content-inner"><div id="recent-posts"><!-- each post in page.posts.sort('date', -1).limit(10).toArray()--><!-- config中配置按照什么排序--><div class="recent-post-item"><a class="post-title" href="/2020/02/25/React基础/">React框架基础指南</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-26</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/React/">React</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/大前端/">大前端</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/React/">React</a></div></div><div class="post-content"><div class="main-content content"><h2 id="React的特点："><a href="#React的特点：" class="headerlink" title="React的特点："></a>React的特点：</h2><ol>
+<li><p>视图层框架</p>
+<blockquote>
+<ul>
+<li><p>一个构建用户界面的框架</p>
+</li>
+<li><p>声明式的框架</p>
+</li>
+<li><p>数据驱动DOM，再用事件反馈给数据</p>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>组件化</p>
+<blockquote>
+<ul>
+<li><p>组件组合而不是继承</p>
+</li>
+<li><p>state&amp;&amp;props</p>
+</li>
+<li><p>生命周期</p>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>[^JSX]表达式（处理数据和DOM的关系）</p>
+<blockquote>
+<ul>
+<li>一种[^JS]扩展的表达式</li>
+<li>带有逻辑的标记语法，有别于HTML模板</li>
+<li>对样式，逻辑表达式和事件的支持</li>
+</ul>
+</blockquote>
+</li>
+<li><p>虚拟DOM</p>
+<blockquote>
+<ul>
+<li>对DOM进行模拟</li>
+<li>比较操作前后的数据差异</li>
+<li>如果由数据差异，统一操作DOM</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+<h2 id="React的优点和缺点"><a href="#React的优点和缺点" class="headerlink" title="React的优点和缺点"></a>React的优点和缺点</h2><blockquote>
+<p>优点</p>
+</blockquote>
+<ol>
+<li>简洁</li>
+<li>灵活</li>
+<li>高效</li>
+</ol>
+<blockquote>
+<p>缺点</p>
+</blockquote>
+<ol>
+<li>思维转换</li>
+<li>依赖生态</li>
+<li>变动频繁</li>
+</ol>
+<h2 id="深入了解React之JSX"><a href="#深入了解React之JSX" class="headerlink" title="深入了解React之JSX"></a>深入了解React之JSX</h2><ol>
+<li><p>创建项目的方式</p>
+<blockquote>
+<ol>
+<li><p>在已有项目上添加</p>
+</li>
+<li><p>通过create-react-app建立</p>
+</li>
+</ol>
+<blockquote>
+<p>安装命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; yarn global add create-react-app</span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>进入想指定的目录执行命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; create-react-app 文件名</span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p> 使用命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; yarn start</span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>就可以启动一个react项目了</p>
+<p>项目启动后如果需要自定义webpack的配置则需要执行命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt; yarn eject</span><br><span class="line">&gt; &gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>然后目录就会多出一个config文件夹，打开</p>
+<p>打开webpack.config.dev.js和</p>
+<p>webpack.config.prod.js就可以根据自己的需要该配置了</p>
+<p>不过这种方式不如在自定义的webpack中引入react来的方便，所以推荐第一种方式（详情参考<a href="(https://heaiwei.github.io/2020/02/24/webpack配置01/)">webpack配置和基础使用</a>这篇文章）</p>
+</blockquote>
+</blockquote>
+</li>
+<li><p>JSX语法</p>
+<ul>
+<li>JSX基本语法</li>
+</ul>
+<blockquote>
+<p>相当于对象或者数组</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> jsx = <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span>jsx....<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span>;</span><br><span class="line">ReactDOM.render(</span><br><span class="line">	jsx,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	);</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>ReactDOM.render接受的第一个参数就是jsx语法，表示需要渲染的组件</p>
+<p>第二个参数表示选择器，即将样式挂载在某个标签里</p>
+</blockquote>
+<blockquote>
+<p>jsx怎么插入样式（样式的属性是通过数据的形式给的）：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="keyword">let</span> style=&#123;</span><br><span class="line">&gt; 	color: <span class="string">'red'</span>,</span><br><span class="line">&gt;     <span class="comment">//也可以是一个计算值，比如如下这种写法：</span></span><br><span class="line">&gt;     <span class="comment">//color: 'r' + 'ed'</span></span><br><span class="line">&gt; 	fontSize: <span class="string">'30px'</span></span><br><span class="line">&gt; &#125;</span><br><span class="line">&gt; <span class="keyword">let</span> jsx = <span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&#123;style&#125;</span>&gt;</span>jsx....<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>jsx中嵌入变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; let name=&apos;haw&apos;</span><br><span class="line">&gt; let jsx = &lt;div&gt;I am &#123;name&#125;&lt;/div&gt;</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>变量的使用和数组循环：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="keyword">let</span> name=<span class="string">'haw'</span>;</span><br><span class="line">&gt; <span class="keyword">let</span> flag=<span class="literal">true</span>;</span><br><span class="line">&gt; <span class="keyword">let</span> jsx = (</span><br><span class="line">&gt; 	<span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="xml">&gt;     &#123;/* 条件判断*/&#125;</span></span><br><span class="line"><span class="xml">&gt; 	   &#123;</span></span><br><span class="line"><span class="xml">&gt;         flag ? <span class="tag">&lt;<span class="name">p</span>&gt;</span>I am &#123;name&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span> : <span class="tag">&lt;<span class="name">p</span>&gt;</span>I am not &#123;name&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span></span><br><span class="line"><span class="xml">&gt; 	   &#125;</span></span><br><span class="line"><span class="xml">&gt;     &#123;/*数组循环*/&#125;</span></span><br><span class="line"><span class="xml">&gt; 	   &#123;</span></span><br><span class="line"><span class="xml">&gt; 	   	names.map((name，index) =&gt; <span class="tag">&lt;<span class="name">p</span> <span class="attr">key</span>=<span class="string">&#123;index&#125;</span>&gt;</span>hello, I am &#123;name&#125;<span class="tag">&lt;/<span class="name">p</span>&gt;</span>)</span></span><br><span class="line"><span class="xml">&gt; 	   &#125;</span></span><br><span class="line"><span class="xml">&gt;     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">&gt;     );</span><br><span class="line">&gt; <span class="comment">//数组循环的时候需要在循环的标签上加上唯一的索引值key，一//般使用数组的索引作为key</span></span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<ul>
+<li>ReactDOm</li>
+<li>样式处理</li>
+<li>数据逻辑处理</li>
+</ul>
+</li>
+</ol>
+<h2 id="深入了解React之React组件"><a href="#深入了解React之React组件" class="headerlink" title="深入了解React之React组件"></a>深入了解React之React组件</h2><ol>
+<li><p>组件基本结构</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//ES5写法</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Component</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>I am haw<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span>;</span><br><span class="line">&#125;</span><br><span class="line">ReactDOM.render(</span><br><span class="line">	&lt;Component/&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	);</span><br><span class="line"></span><br><span class="line"><span class="comment">//ReactDOM.render的第一个参数既可以是jsx语法也可以是某个组件</span></span><br><span class="line"><span class="comment">//组件的首字母一定要大写</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//ES6写法</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ES6Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>I am haw in es6<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ReactDOM.render(</span><br><span class="line">	&lt;ES6Component/&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>state&amp;&amp;props</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//组件中states的处理</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(props)&#123;<span class="comment">//props是父组件传给子组件的东西</span></span><br><span class="line">		<span class="comment">//在子组件中只能被使用，不能改变</span></span><br><span class="line">        <span class="keyword">super</span>(props);</span><br><span class="line">		<span class="keyword">this</span>.state = &#123;</span><br><span class="line">			name : <span class="string">'haw'</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	render()&#123;</span><br><span class="line">		setTimeout(<span class="function"><span class="params">()</span> =&gt;</span>&#123;</span><br><span class="line">                    <span class="keyword">this</span>.setState(&#123;<span class="comment">//这个方法继承自React.Component</span></span><br><span class="line">                  	name: <span class="string">"Haw Test"</span></span><br><span class="line">                  &#125;)</span><br><span class="line">		       &#125;,<span class="number">2000</span>)</span><br><span class="line">		<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>I am &#123;this.state.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ReactDOM.render(</span><br><span class="line">	&lt;Component/&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	);</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//组件中props的使用</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">		<span class="keyword">super</span>(props);</span><br><span class="line">	&#125;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>I am &#123;this.props.name&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ReactDOM.render(</span><br><span class="line">	&lt;Component name=<span class="string">"haw"</span>/&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>事件处理</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">		<span class="keyword">super</span>(props);</span><br><span class="line">		<span class="keyword">this</span>.state=&#123;</span><br><span class="line">			name : <span class="string">'haw test'</span>,</span><br><span class="line">			age : <span class="number">18</span></span><br><span class="line">		&#125;</span><br><span class="line">	  <span class="comment">// this.handleClick = this.handleClick.bind(this)</span></span><br><span class="line">      <span class="comment">//注意：一定要注意this的指向问题，一般要进行绑定</span></span><br><span class="line">      <span class="comment">//可以使用箭头函数解决绑定问题</span></span><br><span class="line">	&#125;</span><br><span class="line">	handleClick()&#123;</span><br><span class="line">		<span class="keyword">this</span>.setState(&#123;</span><br><span class="line">			age : <span class="keyword">this</span>.state.age + <span class="number">1</span></span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">	onValueChange(e)&#123;</span><br><span class="line">		<span class="keyword">this</span>.setState(&#123;</span><br><span class="line">			age : e.target.value</span><br><span class="line">            <span class="comment">//这里指的是输入框的内容</span></span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span>(</span><br><span class="line">			&lt;div&gt;</span><br><span class="line">				&lt;h1&gt;I am &#123;<span class="keyword">this</span>.state.name&#125;&lt;<span class="regexp">/h1&gt;</span></span><br><span class="line"><span class="regexp">				&lt;p&gt;I am &#123;this.state.age&#125; year old!&lt;/</span>p&gt;</span><br><span class="line"><span class="comment">//&lt;button onClick=&#123;this.handleClick&#125;&gt;加一岁&lt;/button&gt;</span></span><br><span class="line">				&lt;button onClick=&#123;()=&gt;<span class="keyword">this</span>.handleClick()&#125;&gt;加一岁&lt;<span class="regexp">/button&gt;</span></span><br><span class="line"><span class="regexp">				&lt;input type="text" onChange=&#123;(e) =&gt; &#123;this.onValueChange(e)&#125;&#125;/</span>&gt;</span><br><span class="line">			&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">			);</span></span><br><span class="line"><span class="regexp">	&#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br><span class="line"><span class="regexp">ReactDOM.render(</span></span><br><span class="line"><span class="regexp">	&lt;Component/</span>&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>组件的组合方式</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//一般方式，只需要在App组件中引入Component组件</span></span><br><span class="line"><span class="comment">//&#123;/*单纯组件*/&#125;</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span>(</span><br><span class="line">			&lt;div className=<span class="string">""</span>&gt;</span><br><span class="line">			    &lt;h1&gt;APP&lt;<span class="regexp">/h1&gt;</span></span><br><span class="line"><span class="regexp">			    &lt;hr/</span>&gt;</span><br><span class="line">				&lt;Component/&gt;</span><br><span class="line">			&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">		);</span></span><br><span class="line"><span class="regexp">	&#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br><span class="line"><span class="regexp">ReactDOM.render(</span></span><br><span class="line"><span class="regexp">	&lt;App/</span>&gt;,</span><br><span class="line">	<span class="built_in">document</span>.getElementById(<span class="string">'app'</span>)</span><br><span class="line">	)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//使用this.props传递数据</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Title</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">		<span class="keyword">super</span>(props);</span><br><span class="line">	&#125;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;this.props.title&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span>(</span><br><span class="line">			&lt;div className=<span class="string">""</span>&gt;</span><br><span class="line">			    &lt;Title title=<span class="string">"App Title"</span>/&gt;</span><br><span class="line">			    &lt;hr/&gt;</span><br><span class="line">				&lt;Component/&gt;</span><br><span class="line">			&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">		);</span></span><br><span class="line"><span class="regexp">	&#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//容器式的组件组合方式</span></span><br><span class="line"><span class="comment">//使用this.props.children传递参数</span></span><br><span class="line"><span class="comment">//某些方面可以比this.props在组件的组合中更加有效</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Title</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	<span class="keyword">constructor</span>(props)&#123;</span><br><span class="line">		<span class="keyword">super</span>(props);</span><br><span class="line">	&#125;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="xml"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>&#123;this.props.children&#125;<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">App</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123;</span><br><span class="line">	render()&#123;</span><br><span class="line">		<span class="keyword">return</span>(</span><br><span class="line">			&lt;div className=<span class="string">""</span>&gt;</span><br><span class="line">			    &lt;Title&gt;</span><br><span class="line">			    	&lt;span&gt;App Span&lt;<span class="regexp">/span&gt;</span></span><br><span class="line"><span class="regexp">			    	&lt;a href=""&gt;link&lt;/</span>a&gt;</span><br><span class="line">			    &lt;<span class="regexp">/Title&gt;</span></span><br><span class="line"><span class="regexp">            /</span><span class="regexp">/注意这里和上面的不同之处</span></span><br><span class="line"><span class="regexp">			    &lt;hr/</span>&gt;</span><br><span class="line">				&lt;Component/&gt;</span><br><span class="line">			&lt;<span class="regexp">/div&gt;</span></span><br><span class="line"><span class="regexp">		);</span></span><br><span class="line"><span class="regexp">	&#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<ol start="5">
+<li>组件间的数据通信</li>
+</ol>
+</div></div><a class="button-hover more" href="/2020/02/25/React基础/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/02/24/webpack配置01/">Webpack配置和基础使用</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-25</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/webpack/">webpack</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/webpack/">webpack</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/打包工具/">打包工具</a></div></div><div class="post-content"><div class="main-content content"><ol>
 <li><p>安装webpack</p>
 <blockquote>
 <p>yarn add <a href="mailto:webpack@3.10.0" target="_blank" rel="noopener">webpack@3.10.0</a> –dev</p>
@@ -333,7 +495,7 @@ if (isPassword) {
 <li><p>初始化后文件夹下会出现一个package.json的文件，存放的是项目相关的包</p>
 </li>
 </ol>
-</div></div><a class="button-hover more" href="/2020/02/24/Nodejs与Yarn/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/02/24/git安装以及使用手册/">Git安装与使用手册</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-25</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/git/">git</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/git/">git</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/代码提交/">代码提交</a></div></div><div class="post-content"><div class="main-content content"><h1 id="windows下git的安装"><a href="#windows下git的安装" class="headerlink" title="windows下git的安装"></a><strong>windows下git的安装</strong></h1><ol>
+</div></div><a class="button-hover more" href="/2020/02/24/Nodejs与Yarn/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/02/24/git安装以及使用手册/">Git安装与使用手册</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-26</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/git/">git</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/git/">git</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/代码提交/">代码提交</a></div></div><div class="post-content"><div class="main-content content"><h1 id="windows下git的安装"><a href="#windows下git的安装" class="headerlink" title="windows下git的安装"></a><strong>windows下git的安装</strong></h1><ol>
 <li><p>百度git官网，下载链接：<a href="https://git-scm.com/download" target="_blank" rel="noopener">https://git-scm.com/download</a></p>
 </li>
 <li><p>点击下载好的安装包进行安装</p>
@@ -423,6 +585,12 @@ if (isPassword) {
 </blockquote>
 <blockquote>
 </blockquote>
+<ol start="7">
+<li><p>给上次的提交结果打上一个标记，方便可以查看这一阶段的代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git tag tag-initial</span><br><span class="line">git push origin tag-initial</span><br><span class="line"><span class="comment">//这样就可以把新建的tag提交到远程</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
 </div></div><a class="button-hover more" href="/2020/02/24/git安装以及使用手册/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2020/02/23/本地存储/">游览器的本地存储</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-23</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/storage/">storage</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/javascript/">javascript</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/ES6/">ES6</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Html5/">Html5</a></div></div><div class="post-content"><div class="main-content content"><p><strong>cookie</strong></p>
 <ol>
 <li><p>用户端保存请求信息的机制</p>
@@ -629,35 +797,4 @@ if (isPassword) {
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-</div></div><a class="button-hover more" href="/2020/02/21/test/#more">阅读全文</a></div><div class="recent-post-item"><a class="post-title" href="/2019/10/11/Markdown4/">Markdown语法规则四</a><div class="container"><time class="button-hover post-date"><i class="fas fa-calendar-alt article-icon" aria-hidden="true"></i> 更新于 2020-02-23</time><div class="button-hover categories"><i class="fa fa-inbox article-icon" aria-hidden="true"></i><a class="link-a" href="/categories/语法规则/">语法规则</a></div><div class="button-hover tags"><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Hexo/">Hexo</a><span>&nbsp;|&nbsp;</span><i class="fa fa-tag article-icon" aria-hidden="true"></i><a class="link-a" href="/tags/Markdown/">Markdown</a></div></div><div class="post-content"><div class="main-content content"><hr>
-<p><strong>表格</strong></p>
-<p>制作表格使用[^|]来分隔不同的单元格，使用[^-]来分个表头和其他行</p>
-<p>语法格式如下：</p>
-<table>
-<thead>
-<tr>
-<th align="center">表头</th>
-<th align="center">表头</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">单元格</td>
-<td align="center">单元格</td>
-</tr>
-<tr>
-<td align="center">单元格</td>
-<td align="center">单元格</td>
-</tr>
-</tbody></table>
-<hr>
-<h3 id="高级技巧"><a href="#高级技巧" class="headerlink" title="高级技巧"></a><strong>高级技巧</strong></h3><p><strong>支持的HTML元素</strong></p>
-<p>不在Markdown涵盖范围之内的标签，都可以直接在文档中用HTML撰写</p>
-<p>目前支持的元素有<kbd>  <b> <i>  <em> <sup>  &lt;br>等</sup></em></i></b></kbd></p>
-<p>使用<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd>重启电脑</p>
-<p><strong>转义</strong></p>
-<p>使用很多特殊的符号来表示特定的意义，如果需要显示特定的符号则需要使用转义字符，markdown使用反斜杠转义特殊字符：</p>
-<p>*<em>文本加粗*</em></p>
-<p>\*\<em>正常显示星号\*\\</em></p>
-<p><strong>公式</strong></p>
-<p>当需要在编辑器中插入数学公式的时候，可以使用两个美元符号$$包裹TeX或者LateX格式的数学公式来实现。提交后，问答和文章页会根据需要加载Mathjax对数学公式进行渲染。如：<br>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>$$</p>
-</div></div><a class="button-hover more" href="/2019/10/11/Markdown4/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fas fa-angle-right"></i></a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2019 ～ 2020 By Heaiwei</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
+</div></div><a class="button-hover more" href="/2020/02/21/test/#more">阅读全文</a></div></div><div id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fas fa-angle-right"></i></a></div></div></div></div><div class="button-hover" id="return-top"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><footer><div id="footer"><div class="button-hover" id="side-button"><i class="fas fa-arrow-right"></i></div><div class="right-content"><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_uv"><i class="fas fa-user"></i></span><span id="busuanzi_value_site_uv"></span><span></span><span class="footer-separator">|</span><span id="busuanzi_container_site_pv"><i class="fas fa-eye"></i></span><span id="busuanzi_value_site_pv"></span><span></span></div><div class="copyright">&copy;2019 ～ 2020 By Heaiwei</div></div></div></footer></div><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery-3.3.1.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/velocity.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/thirdparty/jquery.mCustomScrollbar.concat.min.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/fan.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/canvas_bg.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/utils.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/scroll.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/sidebar.js"></script><!--script(src=url)--><!--js(src=url_for(url) + '?version=' + version())--><script src="/js/copy.js"></script><!--script(src=url)--></body></html>
