@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>React面试笔记</title>
+      <title>Vue的安装与基础语法</title>
       <link href="/2020/03/14/Vue%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
       <url>/2020/03/14/Vue%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ol><li><p>Vue的安装</p><blockquote><p>一. 使用Vue的开发版本进行安装</p><p>链接网址 ：<a href="https://cn.vuejs.org/js/vue.js" target="_blank" rel="noopener">https://cn.vuejs.org/js/vue.js</a></p><p>之后再在html文件中引入该文件即可</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; <span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"./vue.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>二. 使用Vue的脚手架即Vue-cli进行大型项目的项目开发</p><p>安装cnpm，提高打包速度</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; npm install cnpm -g</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>下载Vue</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; cnpm install vue</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>全局安装vue-cli</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; cnpm install --global vue-cli</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>创建一个基于 webpack 模板的新项目</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; vue init webpack my-project</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote><blockquote><p>这里需要进行一些配置，默认回车即可</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; //进入项目</span><br><span class="line">&gt; cd my-project</span><br><span class="line">&gt; //运行项目</span><br><span class="line">&gt; cnpm install</span><br><span class="line">&gt; cnpm run dev</span><br><span class="line">&gt; //然后通过本地端口就可以访问到Vue的界面了</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></blockquote></li><li><p>Vue的基础语法</p></li><li></li></ol>]]></content>
       
       
       <categories>
           
-          <category> React </category>
+          <category> Vue </category>
           
       </categories>
       
@@ -22,7 +22,7 @@
             
             <tag> 大前端 </tag>
             
-            <tag> React </tag>
+            <tag> Vue </tag>
             
         </tags>
       
