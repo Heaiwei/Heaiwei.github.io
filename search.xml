@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>React面试笔记</title>
+      <link href="/2020/03/14/Vue%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/"/>
+      <url>/2020/03/14/Vue%E5%AE%89%E8%A3%85%E5%92%8C%E4%BD%BF%E7%94%A8/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> React </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大前端 </tag>
+            
+            <tag> React </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电商后台管理系统知识汇总</title>
+      <link href="/2020/03/01/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/"/>
+      <url>/2020/03/01/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%9F%A5%E8%AF%86%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>在引入组件模块的时候，比如：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引入一个Home组件</span></span><br><span class="line"><span class="keyword">import</span> Home <span class="keyword">from</span> <span class="string">'./home/index.jsx'</span>;</span><br></pre></td></tr></table></figure><p>此时使用[^./]的形式会影响引入组件的灵活性，所以在webpack的配置文件中通过添加如下代码可以改善这个问题：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//配置项</span></span><br><span class="line">resolve: &#123;</span><br><span class="line">    alias : &#123;</span><br><span class="line">      page : path.resolve (__dirname, <span class="string">'src/page'</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure><p>此时引入组件就可以写成：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引入一个Home组件</span></span><br><span class="line"><span class="keyword">import</span> Home <span class="keyword">from</span> <span class="string">'src/home/index.jsx'</span>;</span><br></pre></td></tr></table></figure></li><li><p>当需要访问一个路径不匹配的资源时设置一个默认路径可以使用路由react-router中的Rediect,使用方法：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Redirect <span class="keyword">from</span>=<span class="string">"*"</span> to=<span class="string">"/"</span>/&gt;</span><br></pre></td></tr></table></figure></li><li><p>当需要访问页面出现404的时候跳转到主页(或者指定页面)，可以在webpack的配置中加上：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">devServer: &#123;</span><br><span class="line">    port:<span class="number">8086</span>,</span><br><span class="line">    historyApiFallback:&#123;</span><br><span class="line">      index: <span class="string">'/dist/index.html'</span></span><br><span class="line">    &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure></li><li><p>好用的react插件之<a href="mailto:rc-paginantion@1.15.1" target="_blank" rel="noopener">rc-paginantion@1.15.1</a>(千万别用最新的版本)</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> React </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 大前端 </tag>
+            
+            <tag> React </tag>
+            
+            <tag> Webpack </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>React框架基础指南(2)</title>
       <link href="/2020/02/28/React%E5%9F%BA%E7%A1%8002/"/>
       <url>/2020/02/28/React%E5%9F%BA%E7%A1%8002/</url>
